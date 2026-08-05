@@ -1,0 +1,19 @@
+.layout {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.comentarios{
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+img{
+    width: 25%;
+}
