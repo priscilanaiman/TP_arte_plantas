@@ -3,45 +3,13 @@
   margin: 0;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-.layout {
-  width: 100%;
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-}
-
-.comentarios{
-  width: 100%;
-
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-
-  justify-content: space-around;
-}
-h1{
-  margin: 2%;
-}
-.layout img{
-    width: 65%;
-    box-shadow: 0px 4px 6px #00000062;
-    border-radius: 10px;
-    margin-top: 5%;
-}
-main{
-padding-top:100px;
-text-align: center;
-width: 100%;
-}
-
 header{
-    background-color: #386641;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0px 4px 6px #00000062;
-    padding-bottom: 0.3%;
-    padding-top: 0.3%;
+  background-color: #386641;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 4px 6px #00000062;
+  padding-bottom: 0.3%;
+  padding-top: 0.3%;
 }
 header div{
     width: 20%;
@@ -76,9 +44,6 @@ header nav ul{
     display: inline-block;
     list-style: none;
 }
-footer img{
-  width: 10%;
-}
 footer{
     width: 100%;
     background-color: #386641;
@@ -92,6 +57,57 @@ footer{
     text-align: center;
     align-items:center;
 }
+.Redes_Sociales{
+  text-align: center;
+  margin-top:2%;
+}
+.Redes_Sociales p{
+  margin-bottom: 2%;
+  text-decoration:underline;
+}
+.Redes_Sociales img{
+  width: 7%;
+  height: 7%;
+  margin-right: 2%;
+}
+.Redes_Sociales div{
+  display: flex;
+  align-items: center;
+  margin-left:38%;
+  margin-bottom:2%;
+}
+.Redes_Sociales div a{
+  text-decoration: none;
+  color: #ffffff;
+}
+main{
+  padding-top:100px;
+  text-align: center;
+  width: 100%;
+}
+main p{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%
+}
+h1{
+  margin: 2%;
+}
+.layout {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.layout img{
+  width: 65%;
+  height: 50%;
+  box-shadow: 0px 4px 6px #00000062;
+  border-radius: 10px;
+  margin-top: 5%;
+}
 .boton {
   display: inline-block;
   background-color: #DCE8B4;
@@ -103,26 +119,19 @@ footer{
   text-decoration: none;
   box-shadow: 0px 4px 6px #00000062;
 }
-
 .boton:hover {
   background-color: #bbc59c;
 }
 section{
-  margin-top:5%;
+  margin-top:3%;
   width: 100%;
 }
-.parrafo{
-  background-color: #B08968;
-  color: white;
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-.comentario img{
-  width: 30%;
-  border-radius: 10px;
-  box-shadow: 0px 4px 6px #00000062;
-  margin-top: 3%;
-  margin-bottom: 3%;
+.comentarios{
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .comentario{
   margin: 2%;
@@ -133,11 +142,20 @@ section{
   padding-bottom: 3%;
   text-align: center;
 }
-main p{
-  width: 60%;
-  margin-left: 20%;
+.comentario img{
+  width: 49%;
+  box-shadow: 0px 4px 6px #00000062;
+  margin-bottom: 3%;
+  height: 174px;
+  border-radius: 50%;
+  margin-top: 5%;
 }
-
+.parrafo{
+  background-color: #B08968;
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 .parrafo .boton{
   background-color: #ffffff;
 }
@@ -146,14 +164,65 @@ main p{
 }
 .nosotros{
   width: 80%;
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-  grid-auto-flow: row dense;
-  margin-left: 10%;
+  margin-left: 8.5%;
 }
-.nosotros img{
-  width: 20%;
-    box-shadow: 0px 4px 6px #00000062;
+.nosotros h3{
+  font-size: 155%;
+}
+.nosotros div{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5%;
+}
+.nosotros .normal p{
+  margin-left:0.1%;
+  margin-right: 10%;
+  background-color: #DCE8B4;
+  border-radius: 10px;
+  padding: 5.5%;
+}
+.nosotros .normal img{
+  width: 25%;
+  height: 255px;
+  box-shadow: 0px 4px 6px #00000062;
+  border-radius: 10px;
+  margin-left:16%;
+}
+.nosotros .invertido{
+  flex-direction: row-reverse;
+}
+.nosotros .invertido p{
+  margin-right: 1%;
+  margin-left:16%;
+  background-color: #DCE8B4;
+  border-radius: 10px;
+  padding: 5.2%;
+}
+.nosotros .invertido img{
+  width: 25%;
+  height: 255px;
+  box-shadow: 0px 4px 6px #00000062;
+  border-radius: 10px;
+  margin-right:10%;
+}
+.formulario{
+  background-color: #DCE8B4;
+  width: 40%;
+  margin-left:30%;
+  box-shadow: 0px 4px 6px #00000062;
+  border-radius: 10px;
+}
+.contenedor_formulario{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+input, select
+{
+  width: 50%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border: 1px solid #bcbcbc;
 }
